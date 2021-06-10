@@ -3,32 +3,24 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-
 ## Open Source Contributions
 
-<br/>
 **Core Contributor, SyMPC [2021-]**
 <br/>
 <em>"A library for training Neural Networks using Multi Party Computations using Pytorch"</em>
 <br/>
 <br/>
 Been working on something awesome. Will come back to you on this :). Currently, feel free to stalk my Pull requests and commits on Github to understand better.
+<br/>
+<br/>
 
+**Core Contributor, PySyft [2018-19]**
 <br/>
-
-**PySyft [2018-19]**
-<br/>
-<em>"A library for answering questions using data you cannot see"</em>
-<br/>
-<br/>
+<em>"A library for answering questions using data you cannot see"</em><br/>
 A framework for privacy-preserving deep learning using Pytorch and Tensorflow.
 <br/>
-I worked on **Pytorch** development.
-Part of the Core team
-Contributed to Core PySyft Team
 <br/>
-<br/>
-The experience helped me learn a lot of software engineering practices such as unit tests, code reviews, Git, writing clean and documented code.
+I worked on **Pytorch** development.The experience helped me learn a lot of software engineering practices such as unit tests, code reviews, Git, writing clean and documented code. Some tasks I worked on are:
 <br/>
 - Wrote use cases of Federated Learning for developing Word Embeddings from Private Data and demonstration on CIFAR10
 - Wrote an implementation of Differential Privacy method Private Aggregation of Teacher Ensembles (PATE)
