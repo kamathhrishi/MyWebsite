@@ -6,8 +6,18 @@ permalink: /projects/
 
 ## Open Source Contributions
 
-#### PySyft
+<br/>
+#### Core Contributor, SyMPC [2021-]
+<em>"A library for training Neural Networks using Multi Party Computations using Pytorch"</em>
+<br/>
+<br/>
+Been working on something awesome. Will come back to you on this :). Currently, feel free to stalk my Pull requests and commits on Github to understand better.
+
+<br/>
+
+#### PySyft [2018-19]
 <em>"A library for answering questions using data you cannot see"</em>
+<br/>
 <br/>
 A framework for privacy-preserving deep learning using Pytorch and Tensorflow.
 <br/>
@@ -24,9 +34,10 @@ The experience helped me learn a lot of software engineering practices such as u
 - Refactored data loaders and federated dataset and wrote a tutorial on developing custom federated datasets
 - Type annotated the codebase and wrote documentation for parts of it
 
+<br/>
 
 #### Deepgaze
-Computer Vision library for human-computer interaction in **Python**
+<em>Computer Vision library for human-computer interaction in **Python**</em>
 <br/>
 <p style='text-align: justify;'>
 I have refactored certain parts of the library for improved usability and wrote test cases to ensure accurate functionality. Ported library to Python 3.0.
