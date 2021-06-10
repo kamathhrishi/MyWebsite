@@ -1,0 +1,72 @@
+---
+layout: post
+title:  "Introduction to Cryptography 1"
+date:   2021-06-10 16:42:52 +0530
+categories: jekyll update
+tags: Crypto
+---
+
+## Introduction
+<p style="text-align:justify">Cryptography is the practice of securely communicating messages between two parties in presence of a third party, an adversary. An adversary should learn nothing about the plaintext nor should they be able to modify it. This article introduces <b>Symmetric Encryption</b>. A simple scheme where plaintext messages are encrypted using a single key. Symmetric encryption might not necessarily be the most secure scheme but a good starting point to understand cryptography. Let us assume that the two parties before agree to a secret key shared between them. There is also a setting where two parties do not agree upon a key beforehand called Asymmetric Cryptography. I will get into in my future blogposts. <b>Asymmetric cryptography</b> allows two parties to send messages without having to agree upon a common key beforehand.</p>
+<p style="text-align:justify">Any crypto-graphical algorithm has three components 1) Key/Key Generation 2) Encryption Algorithm 3) Decryption Algorithm.</p>
+
+<center><b>c = E(k,m)</b></center>
+<center><b>m = D(k, c)</b></center>
+<center><b>D(k, E(k, m) ) = m</b></center>
+
+<p style="text-align:justify">A cryptographical algorithm is said to be correct if a given CT produced by a key and message can be decrypted by using the same key.</p>
+
+<p style="text-align:justify">Let us consider the two most common ways people know to do cryptography 1) Substitution Table and 2) Caesar Cipher.</p>
+
+## Ceaser Cipher
+<p style="text-align:justify">Every letter is shifted by some offset. For an offset of k=2. A becomes C , D becomes F and so on.
+While it seems secure since the plaintext is know obfuscated in some form. There are two major problems with it. Actually several more before it becomes a useable cipher, but let me list two major problems:
+The Cipher-text reveals a lot about plaintext
+Frequency Analysis attack
+Similar to Ceaser Cipher is substitution table where the every row of table is replaced with some other character. It also faces the same attacks as Caesar cipher. That is you can look at when characters repeat</p>
+
+## One Time Pad
+
+<br/>
+
+<center><b>CT=E(Key,msg)=msg^Key</b></center>
+<center><b>D(Key,CT)=msg=CT^Key</b></center>
+
+<p style="text-align:justify">One time pad is a basic cryptographic technique where a message and key are xored to create a cipher text. But, OTP allows us to encrypt a given message only once. That is the same key cannot be used to encrypt many messages.  
+Suppose two messages are encrypted with same key, the </p>
+<br/>
+
+<center><b>CT1=msg1^Key</b></center>
+<center><b>CT2=msg2^Key</b></center>
+<center><b>CT1^CT2=((msg1)(Key))^((Key)(msg2))=(msg1)(msg2)</b></center>
+<br/>
+
+<p style="text-align:justify">Maybe we could use this scheme if we have a method to generate several keys to encrypt large messages. A good scheme to generate several keys could be attained by a Random Number Generator (RNG).
+OTP is called a stream cipher since every </p>
+
+## What is a Secure Cipher?
+<p style="text-align:justify">Semantic security, cipher text should not be able to give any information about plaintext. Given cipher text c1 and c2, an adversary shouldn’t be able to distinguish if c1 or c2 is the encryption of message m1.
+
+<br/>
+Formally speaking <br/>
+<center><b>Pr[A(c1==m1)]=Pr[A(c2==m1)]</b></center>
+</p>
+
+## Pseudo Random Number Generator (PRNG)
+<p style="text-align:justify">A good random number generator is a generator which generates numbers that look as random as possible. That is an adversary shouldn’t be able to predict any sequence in any key. There are quantitative measures of defining a good PRNG called advantage function. An Advantage function determines whether a given a function mets some criteria to pass a truly random function. A simple example of advantage function, a PRNG having more than 4 consecutive 0’s or 1’s is not truly random or the number of consecutive 0’s and 1’s should be less than 60% for a string to be truly random. A single advantage function is not used to quantify PRNG security but a variety of advantage functions. You can learn more about these tests <a href="https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-22r1a.pdf">here</a>.</p>
+
+<p style="text-align:justify">A good metric to rate a PRNG is:
+<br/>
+<br/>
+<center><b>|Pr[Adv(PRNG Str)==1]-Pr[Adv(Truly RAND Str)==1]|</b></center>
+<br/>
+<br/>
+Informally,  The probability of advantage function passing a truly random function should be close to the probability of advantage function passing a PRNG.
+Above criteria must be close to 0.</p>
+
+## OTP for Many time pad
+<p style="text-align:justify">Now that we have an established way of generating new keys using PRNG’s. We can split message block into fixed sizes, generate a key using PRNG for each block and encrypt it. But, this would also result into a key as long as the message length.
+
+A good Cipher depends on Good Random Number Generator
+Since the above scheme depends on
+</p>
