@@ -7,7 +7,7 @@ permalink: /projects/
 ## Open Source Contributions
 
 <br/>
-#### Core Contributor, SyMPC [2021-]
+**Core Contributor, SyMPC [2021-]**
 <em>"A library for training Neural Networks using Multi Party Computations using Pytorch"</em>
 <br/>
 <br/>
@@ -15,7 +15,7 @@ Been working on something awesome. Will come back to you on this :). Currently, 
 
 <br/>
 
-#### PySyft [2018-19]
+**PySyft [2018-19]**
 <em>"A library for answering questions using data you cannot see"</em>
 <br/>
 <br/>
@@ -36,7 +36,7 @@ The experience helped me learn a lot of software engineering practices such as u
 
 <br/>
 
-#### Deepgaze
+**Deepgaze**
 <em>Computer Vision library for human-computer interaction in **Python**</em>
 <br/>
 <p style='text-align: justify;'>
