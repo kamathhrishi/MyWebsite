@@ -40,7 +40,7 @@ For complete list of projects feel free to check my [Github Profile](https://git
 
 **GreyNSights**
 <br/>
-Privacy Preserving Pandas
+GreyNSights is a Framework for Privacy-Preserving Data Analysis. Currently with support only for Pandas. The framework allows analysts to remotely query a dataset such that the dataset remains at source and private to data analyst. The query results returned are differentially private. The framework offers flexibility to the analyst by ensuring that they can use the same pandas syntax for analyzing and transforming datasets, but cannot view the individual rows. GreyNSights also offers flexibility to query several parties together and get aggregate statistics without revealing individual counts of parties.
 
 **Indoor Scene Recognition with Visual Attributes**
 <br/>
@@ -57,18 +57,5 @@ Privacy Preserving Pandas
 - Trained a street text localisation and detection Fully Convolutional Network(FCN) on the weakly supervised labelled dataset by using text detector’s starting CNN layers
 - Currently working on character level segmentation and recognition
 
-**Animals with Attributes**
-<br/>
-*Supervised Learning*
-<br/>
-
-- Trained a 30 layer Residual CNN from scratch which could predict 50 different species of animals with 72% accuracy. Trained it with probabilistic augmentations using Alubmentations library.
-- Finetuned an ImageNet pre-trained 18 layer network to attain 89% accuracy
-- Spent time understanding and analyzing top Imagenet CNN architectures  
-
-*Zero Shot Learning*
-<br/>
-
-- Currently exploring Zero shot learning on the dataset. A naive implementation with Direct Attribute prediction attains 35% accuracy prediction unseen classes.
 
 <br/>
