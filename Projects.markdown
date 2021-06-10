@@ -40,7 +40,10 @@ For complete list of projects feel free to check my [Github Profile](https://git
 
 **GreyNSights**
 <br/>
-GreyNSights is a Framework for Privacy-Preserving Data Analysis. Currently with support only for Pandas. The framework allows analysts to remotely query a dataset such that the dataset remains at source and private to data analyst. The query results returned are differentially private. The framework offers flexibility to the analyst by ensuring that they can use the same pandas syntax for analyzing and transforming datasets, but cannot view the individual rows. GreyNSights also offers flexibility to query several parties together and get aggregate statistics without revealing individual counts of parties.
+<p style="text-align:justify">GreyNSights is a Framework for Privacy-Preserving Data Analysis.</p>
+<p style="text-align:justify">Currently with support only for Pandas. The framework allows analysts to remotely query a dataset such that the dataset remains at source and private to data analyst. The query results returned are differentially private. The framework offers flexibility to the analyst by ensuring that they can use the same pandas syntax for analyzing and transforming datasets, but cannot view the individual rows. GreyNSights also offers flexibility to query several parties together and get aggregate statistics without revealing individual counts of parties.</p>
+
+<br/>
 
 **Indoor Scene Recognition with Visual Attributes**
 <br/>
@@ -49,13 +52,15 @@ GreyNSights is a Framework for Privacy-Preserving Data Analysis. Currently with 
 - In order to learn finer features, a separate attribute prediction network was trained on SUN attribute database.
 - The predicted attributes are used to augment image features in the linear layers of the network scene recognition network.
 
+<br/>
+
 **Weakly Supervised Street View Text Detection**
 <br/>
 - Used Pytorch, OpenCV and Pillow in Python
-- Trained a character agnostic text detector on Chars74K dataset along with images consisting of indoor/outdoor scenes without text. The character agnostic model is   a alexnet network pretrained on imagenet.
-- Used the classifier and sliding windows to annotate images in UCSD SVT and NEOCR dataset to derive bounding boxes
+- Trained a character agnostic text detector on Chars74K dataset along with images consisting of indoor/outdoor scenes without text. The character agnostic model is a alexnet network pretrained on imagenet.
 - Trained a street text localisation and detection Fully Convolutional Network(FCN) on the weakly supervised labelled dataset by using text detector’s starting CNN layers
-- Currently working on character level segmentation and recognition
-
+- Reduced time to label a single image by 34% by training a smaller network using Knowledge Distillation, making the model capable of labelling thousands of images in a few hours.
+- Also explored and analyzed other methods for Neural Network compression.
+- Used the distilled network and sliding windows to annotate images in UCSD SVT and NEOCR dataset to derive bounding boxes
 
 <br/>
