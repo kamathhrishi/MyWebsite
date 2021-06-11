@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Deep Learning in Practice-Be The algorithm"
-date:   2021-06-10 16:42:52 +0530
+date:   2020-06-2019 16:42:52 +0530
 categories: jekyll update
 summary:  "Manual reannotation is the process of you going through image/text of your dataset and understanding what features exactly define this given image. Manually reannotating not only helps remove incorrect labels but also helps understand biases your algorithm could pick up on or even helps you pick up on certain data for the algorithm to make training easier."
 ---

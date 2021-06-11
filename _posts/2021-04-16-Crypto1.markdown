@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introduction to Cryptography 1"
-date:   2021-06-10 16:42:52 +0530
+date:   2021-04-16 16:42:52 +0530
 categories: jekyll update
 tags: Crypto
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Analyze Private datasets using Pandas"
-date:   2021-06-10 16:42:52 +0530
+date:   2021-02-22 16:42:52 +0530
 categories: jekyll update
 ---
 
