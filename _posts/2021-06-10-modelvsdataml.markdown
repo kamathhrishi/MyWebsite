@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Model centric vs Data centric ML"
+title:  "Model centric vs Data centric ML [WIP]"
 date:   2021-06-10 16:42:52 +0530
 categories: jekyll update
-published: true 
+published: true
 ---
 
 
