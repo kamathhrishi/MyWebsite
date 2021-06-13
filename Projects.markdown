@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-## Open Source Contributions
+<center><h2> Open Source Contributions</h2></center>
 
 **Core Contributor, SyMPC [2021-]**
 <br/>
@@ -40,7 +40,7 @@ I have refactored certain parts of the library for improved usability and wrote 
 
 <br/>
 
-## Some Personal Projects I am proud of
+<h2><center> Some Personal Projects I am proud of</h2></center>
 
 For complete list of projects feel free to check my [Github Profile](https://github.com/kamathhrishi).
 
