@@ -67,5 +67,3 @@ For complete list of projects feel free to check my [Github Profile](https://git
 - Reduced time to label a single image by 34% by training a smaller network using Knowledge Distillation, making the model capable of labelling thousands of images in a few hours.
 - Also explored and analyzed other methods for Neural Network compression.
 - Used the distilled network and sliding windows to annotate images in UCSD SVT and NEOCR dataset to derive bounding boxes
-
-<br/>
