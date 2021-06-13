@@ -22,16 +22,17 @@ While data centric approach refers to improving model performance by incorporati
 
 <p style="text-align:justify">
 In order to get a better understanding of foundations between the two approaches, I would like to explain how priors and data shape models in machine learning.
-It is a standard practice to train a very complex model such as neural networks with lots of data. Alternatively train an appropriate model with right assumptions that captures the relationship between input and output variables well.
+It is a standard practice to train a very complex model such as neural networks with lots of data. Alternatively train an appropriate model with right assumptions that captures the relationship between input and output variables to a large degree.
 An example of second approach could be a logistic regression or Linear Regression model trained on data that exhibits close to linear relationship between input and output variables. The model works well if the relationship between the input and target variables are linear.
-Even if its not linear, it is upto the ML Practitioner to design features that are linearly related.
-This approach requires very less data because the model structure captures the relationship of the data. or the ML practitioner is using their understanding of the problem to design relevant features.
+Even if its not linear, it is upto the ML Practitioner to design features that are linearly related or any other feature transformation to fit a given models
+assumptions.
+This approach requires very less data because the model structure captures the relationship of the data.Or the ML practitioner is using their understanding of the problem to design relevant features that fit the model.
 Both of these involve some kind of prior knowledge of the dataset.
-While, priors allow to use lesser data they can be very difficult to design. They would the practitioner to make a lot of assumptions of the complex world.  On the contrary in the first case defined above, powerful model likes neural networks don’t require much understanding of the task.
-Users could directly fit the model on a very large representative dataset and get a decent enough accuracy.
-But, can require lots of samples of data to learn some phenomenon.
+While, priors allow us to use lesser data they can be very difficult to design. They would the practitioner to make a lot of assumptions of the complex world.  On the contrary in the first case discussed above, powerful models likes neural networks don’t require much understanding of the task.
+Users could directly fit the model on a very large representative labelled dataset and get a decent enough accuracy.
+But, can require lots of samples and compute power of data to learn some phenomenon.
 To make the difference more clear lets take a simple example of detecting the wheel of a car. A simple model is using our common sense reasoning in mathematical form.
-Using image processing to identify rubber, rims, road and other attributes that define a wheel.
+Using image processing to detect rubber, rims, road and other attributes that define a wheel.
 But, then there are so many possible combinations of these attributes which can vary in different conditions. Identifying priors to accommodate all the possible conditions might be a tedious process.
 Another way to solve the same problem is to gather images of 1000’s of wheels and have a complex model learn from it.
 </p>
