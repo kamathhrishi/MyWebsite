@@ -100,5 +100,5 @@ This is an example of how Model centric AI could reduce the effort of Data centr
 <br>
 <br>
 </center>
-<p>To summarize if you have a lot of labelled data, compute and have short-term targets use data centric ML. Else use model-centric or a combination of
+<p>To summarize if you have a lot of labelled data, compute infrastructure and short-term targets use data centric ML. Else use model-centric or a combination of both.
 both.</p>
