@@ -5,7 +5,6 @@ permalink: /projects/
 ---
 <center><h2> Open Source Contributions</h2></center>
 <br/>
-<br/>
 **Core Contributor, SyMPC [2021-]**
 <br/>
 <em>"A library for training Neural Networks using Multi Party Computations using Pytorch"</em>
@@ -43,13 +42,12 @@ I have refactored certain parts of the library for improved usability and wrote 
 
 <center> <h2>Some Personal Projects I am proud of</h2></center>
 <br/>
-<br/>
 
 For complete list of projects feel free to check my [Github Profile](https://github.com/kamathhrishi).
 
 **GreyNSights**
 <br/>
-<p style="text-align:justify">GreyNSights is a Framework for Privacy-Preserving Data Analysis.</p>
+<center><p style="text-align:justify"><i>GreyNSights is a Framework for Privacy-Preserving Data Analysis.</i></p></center>
 <p style="text-align:justify">Currently with support only for Pandas. The framework allows analysts to remotely query a dataset such that the dataset remains at source and private to data analyst. The query results returned are differentially private. The framework offers flexibility to the analyst by ensuring that they can use the same pandas syntax for analyzing and transforming datasets, but cannot view the individual rows. GreyNSights also offers flexibility to query several parties together and get aggregate statistics without revealing individual counts of parties.</p>
 
 <br/>
