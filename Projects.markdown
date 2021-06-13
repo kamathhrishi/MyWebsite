@@ -6,7 +6,6 @@ permalink: /projects/
 <center><h3>Open Source Contributions</h3></center>
 <br/>
 **Core Contributor, SyMPC [2021-]**
-<br/>
 <em>"A library for training Neural Networks using Multi Party Computations using Pytorch"</em>
 <br/>
 Been working on something awesome. Will come back to you on this :). Currently, feel free to stalk my Pull requests and commits on Github to understand better.
@@ -14,9 +13,7 @@ Been working on something awesome. Will come back to you on this :). Currently, 
 <br/>
 
 **Core Contributor, PySyft [2018-19]**
-<br/>
-<em>"A library for answering questions using data you cannot see"</em><br/>
-A framework for privacy-preserving deep learning using Pytorch and Tensorflow.
+<em>A framework for privacy-preserving deep learning using Pytorch and Tensorflow.</em>
 <br/>
 I worked on **Pytorch** development.The experience helped me learn a lot of software engineering practices such as unit tests, code reviews, Git, writing clean and documented code. Some tasks I worked on are:
 <br/>
