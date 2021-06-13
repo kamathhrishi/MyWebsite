@@ -19,6 +19,7 @@ Model centric approach refers to almost all practices to improve a ML model perf
 While data centric approach refers to improving model performance by incorporating better datasets. Performance here strictly refers to “accuracy” of a given model on unseen data.</p>
 
 ## Priors and Data
+
 <p style="text-align:justify">
 In order to get a better understanding of foundations between the two approaches, I would want to explain how priors and data shape models in machine learning.
 It is a standard practice to train a very complex model such as neural networks with lots of data or train an appropriate model with right assumptions that captures the relationship between input and output variables well.
@@ -42,12 +43,12 @@ Another way to solve the same problem is to gather images of 1000’s of wheels 
 Model centric ML is the practice of keeping data constant and changing the ML code to improve performance of the model.
 Before I explain model centric AI, I would like to mention models don’t just refer to mathematical model(neural network, SVM, logistic regression,etc) but refers to other practices with respect to model that make it easier to learn.
 Practices such as hyper parameters, loss function, training practices, representations and augmentations. Generating Synthetic dataset, augmentations and learning representations count as model centric ML. Lets simply redefine model as “ML code” (could simply mean a Pytorch or Tensorflow code) that runs on a fixed input dataset.
-It's an approach that is a lot longer. It requires deep expertise and understanding of practitioner of ML models and the given problem. Model centric ML is more of a research approach.
+It's an approach that is a lot longer. It requires deep expertise and understanding of practitioner of ML models and the given problem. Model centric ML is more of a research approach.</p>
 
 
 <center>
 <img src="{{site.baseurl}}/assets/Imagenet_benchmarks.png">
-<p>Credits: Papers with Code</p>
+<p><b>Credits:</b> Papers with Code</p>
 </center>
 
 <p style="text-align:justify">To get an idea of pace of improvement you can have a look at Imagenet benchmarks over the years. Imagenet is a competition where people train models on a large fixed dataset of images of 1000 different categories and report their accuracies and methods.
@@ -58,6 +59,7 @@ Model centric ML is mostly practiced in academic research and competitions. To s
 </p>
 
 ## Data Centeric ML
+
 <p style="text-align:justify">
 Data centric ML is the practice of keeping model code constant and augmenting dataset to improve performance of the model. Like I mention in the priors vs data section, complex models learn better with larger data.  
 Data centric approach is a lot easier and faster as compared to model centric ML. But, is expensive. It requires gathering large amounts of data. Maybe even effort into annotating them. Further, requires more infrastructure for storing and managing dataset.
@@ -70,16 +72,10 @@ With significant emphasis of data, most effort is into storing, managing and cle
 <p style="text-align:justify">
 It's not a dichotomy. They are both beneficial and used at some proportions in the industry. Data centric ML is beneficial on a short term. While, Model centric ML is much more beneficial on a long term.
 In cases, where there isn’t enough data or infrastructure to train or get more data model centric ML becomes the way to do.
-In fact data centric ML is a result of model centric ML. More complex models have given us the flexibility to learn from almost any data source that represents a phenomena allowing data centric ML to be a possibility.
-
-But, academic research is focused primarily on model centric ML.
-Having described model centric and data centric, I will give an example that unifies both themes and go hand in hand.
-
-Until, 1999 MLPs where the way to go about training models for image classification tasks. Until, Yann Lecunn came up with CNN’s. It improved the accuracy of MNIST by a few %. MLP’s could do fine with a simple dataset with MNIST.
-CNN’s had encoded a prior that features that existed in an image could be anywhere in the image and not any specific location, a property called translation invariance. Earlier MLP’s required every possible location of feature requiring it to be trained on a lot more data.</p>
-
-<p>So to summarize if you have a lot of data, compute and have short-term targets use data centric ML. Else use model-centric or a combination of
-both. </
+In fact data centric ML is a result of model centric ML. More complex models have given us the flexibility to learn from almost any data source that represents a phenomena allowing data centric ML to be a possibility.But, academic research is focused primarily on model centric ML.
+<p style="text-align:justify">Having described model centric and data centric, I will give an example that unifies both themes and go hand in hand.
+Until, 1999 MLPs were the way to go about training models for image classification tasks. Until, Yann Lecunn came up with CNN’s. It improved the accuracy of MNIST by a few %. MLP’s could do fine with a simple dataset with MNIST.
+CNN’s were different because they had encoded a prior that features that existed could be anywhere in the image and not any specific location, a property called translation invariance. Earlier MLP’s required every possible location of feature requiring it to be trained on a lot more data.</p>
 
 <center>
 <img src="{{site.baseurl}}/assets/translation_invariance.png">
@@ -89,3 +85,6 @@ A CNN trained on the first image could generalise to other two images. But, an M
 CNN’s dint just help improve accuracy of ML algorithms on Computer vision tasks, but also reduced the compute and number of parameters required, making it more scalable to train models for various CV tasks.
 This is an example of how Model centric AI could reduce the effort of Data centric ML.  
 </p>
+
+<p>To summarize if you have a lot of labelled data, compute and have short-term targets use data centric ML. Else use model-centric or a combination of
+both.</p>
