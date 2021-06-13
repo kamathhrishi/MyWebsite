@@ -11,7 +11,7 @@ published: true
 
 <p style="text-align:justify">
 In this blogpost I will be explaining the difference between Model centric and data centric Machine Learning.
-Here I mean Machine Learning as a branch of AI which learns to perform tasks by learning a model from a dataset.
+Here I mean Machine Learning as a branch of AI which learns to perform tasks by learning a model from a labelled dataset.
 So it would include conventional ML methods and Deep Learning. In machine learning we have a dataset and a model with its associated parameters.
 A model which gives relationship between input and output pairs. This model could also provide predictions for datapoints not seen in the training set.
 This blogpost aims to address a question: If I have a certain accuracy with a given model and given dataset on a task. Can I improve the accuracy of my model by getting more data (data-centric) or focusing improving the model (model-centric)?

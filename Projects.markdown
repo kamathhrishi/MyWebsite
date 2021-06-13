@@ -40,6 +40,7 @@ I have refactored certain parts of the library for improved usability and wrote 
 
 <center><h3>Some Personal Projects I am proud of</h3></center>
 For complete list of projects feel free to check my [Github Profile](https://github.com/kamathhrishi).
+<br/>
 
 **GreyNSights**
 <center><p style="text-align:justify"><i>GreyNSights is a Framework for Privacy-Preserving Data Analysis.</i></p></center>
