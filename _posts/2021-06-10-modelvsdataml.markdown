@@ -39,7 +39,7 @@ explained by the concept of bias-variance tradeoff.
 </p>
 
 
-## Model Centeric ML
+## Model Centric ML
 
 <p style="text-align:justify">
 Model centric ML is the practice of keeping data constant and changing the ML code to improve performance of the model.
@@ -61,13 +61,13 @@ So it incorporates prior knowledge of some or the other kind.
 Model centric ML is mostly practiced in academic research and competitions. To some extent in industry, but not primarily.
 </p>
 
-## Data Centeric ML
+## Data Centric ML
 
 <p style="text-align:justify">
 Data centric ML is the practice of keeping model code constant and augmenting dataset to improve performance of the model. Like I mention in the priors vs data section, complex models learn better with larger data.  
 Data centric approach is a lot easier and faster as compared to model centric ML. But, is expensive. It requires gathering large amounts of data. Maybe even effort into annotating them. Further, requires more infrastructure for storing and managing dataset.
 Complex models usually have lot more parameters and require more hardware infrastructure for training the models. It is a common for industries to primarily focus on data centric ML as opposed to model centric ML.
-With significant emphasis of data, most effort in data centric ML is into storing, managing and cleaning large datasets. Although you can fit a model to get some decent accuracy. Understanding your dataset and knowing what data is relevant or not relevant is still important. I explain this in detail in my other blogpost titled <i>"<a href="https://kamathhrishi.github.io/MyWebsite/jekyll/update/2020/06/19/bethealgorithm.html">Deep Learning in Practice-Be The algorithm</a>"</i></p>
+With significant emphasis of data, most effort in data centric ML is into storing, managing and cleaning large datasets. Although you can fit a model to get some decent accuracy. In ML centric approach, understanding your dataset and knowing what data is relevant or not relevant is still important. I explain this in detail in my other blogpost titled <i>"<a href="https://kamathhrishi.github.io/MyWebsite/jekyll/update/2020/06/19/bethealgorithm.html">Deep Learning in Practice-Be The algorithm</a>"</i></p>
 
 
 
