@@ -39,8 +39,6 @@ I have refactored certain parts of the library for improved usability and wrote 
 <br/>
 
 <center><h3>Some Personal Projects I am proud of</h3></center>
-<br/>
-
 For complete list of projects feel free to check my [Github Profile](https://github.com/kamathhrishi).
 
 **GreyNSights**
