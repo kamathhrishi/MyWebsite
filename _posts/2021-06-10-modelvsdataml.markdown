@@ -14,9 +14,9 @@ In this blogpost I will be explaining the difference between Model centric and D
 Here Machine Learning refers to branch of AI which learns to perform tasks by learning a model from a labelled dataset.
 So it would include conventional ML methods and Deep Learning. In machine learning we have a dataset and a model with its associated parameters.
 A model which gives relationship between input and output pairs. This model could also provide predictions for datapoints not seen in the training set.
-This blogpost aims to address a question: <i>If I have a certain accuracy with a given model and given dataset on a task. Can I improve the accuracy of my model by getting more data (data-centric) or improving the model (model-centric)</i>?
+This blogpost aims to address a question: <b><i>If I have a certain accuracy with a given model and given dataset on a task. Can I improve the accuracy of my model by getting more data (data-centric) or improving the model (model-centric)</i></b>?
 Model centric approach refers to almost all practices to improve a ML model performance that don’t involve gathering a larger dataset or using any external dataset that is keeping the dataset fixed.
-While data centric approach refers to improving model performance by incorporating bigger or external datasets. Performance here strictly refers to “accuracy” of a given model on unseen data, what you called <i>generalization error</i>.</p>
+While data centric approach refers to improving model performance by incorporating bigger or external datasets. Performance here strictly refers to <b>accuracy</b> of a given model on unseen data, what you called <b>generalization error</b>.</p>
 
 ## Priors and Data
 
@@ -79,8 +79,8 @@ In fact data centric ML is a result of model centric ML. More complex models hav
 <center>
 <img src="{{site.baseurl}}/assets/translation_invariance.png">
 </center>
-<p style="text-align:justify">Having described model centric and data centric, I will give an example that unifies both themes and go hand in hand.
-Until, 1999 MLPs were the way to go about training models for image classification tasks. Until, Yann Lecunn came up with CNN’s. It improved the accuracy of MNIST by a few %. MLP’s could do fine with a simple dataset with MNIST.
+<p style="text-align:justify">Having described model centric and data centric, I will give an example that unifies both themes and how they go hand in hand.
+Until, 1999 MLPs were the way to go about training models for image classification tasks. Until, Yann Lecunn came up with Convolutional Neural Network (CNN’s). It improved the accuracy of MNIST by a few % with much lesser parameters. MLP’s could do fine with a simple dataset like MNIST.
 CNN’s were different because they had encoded a prior that features that existed could be anywhere in the image and not any specific location, a property called translation invariance. Earlier MLP’s required every possible location of feature requiring it to be trained on a lot more data.</p>
 
 <p style="text-align:justify">
