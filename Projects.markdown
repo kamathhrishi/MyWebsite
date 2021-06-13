@@ -4,7 +4,8 @@ title: Projects
 permalink: /projects/
 ---
 <center><h2> Open Source Contributions</h2></center>
-
+<br/>
+<br/>
 **Core Contributor, SyMPC [2021-]**
 <br/>
 <em>"A library for training Neural Networks using Multi Party Computations using Pytorch"</em>
@@ -41,6 +42,8 @@ I have refactored certain parts of the library for improved usability and wrote 
 <br/>
 
 <center> <h2>Some Personal Projects I am proud of</h2></center>
+<br/>
+<br/>
 
 For complete list of projects feel free to check my [Github Profile](https://github.com/kamathhrishi).
 
