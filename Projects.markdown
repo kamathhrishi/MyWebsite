@@ -7,7 +7,7 @@ permalink: /projects/
 <br/>
 **Core Contributor, SyMPC [2021-]**
 <br/>
-<em>"A library for training Neural Networks using Multi Party Computations using Pytorch"</em>
+<em>"A library for training Neural Networks using Multi Party Computations in Pytorch"</em>
 <br/>
 <br/>
 Been working on something awesome. Will come back to you on this :). Currently, feel free to stalk my Pull requests and commits on Github to understand better.
