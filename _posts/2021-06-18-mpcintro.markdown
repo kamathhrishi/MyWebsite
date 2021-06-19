@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "Calculating Average Income without revealing inputs"
+date:   2021-06-10 16:42:52 +0530
+categories: jekyll update
+published: false
+---
+
+## Introduction
+
+<p style="text-align:justify">
+In this blogpost I would like to describe a method how you could calculate average of incomes without revealing input values. Not just incomes, but almost any average values. While, I wont depict how all operations could occur, but an Introduction to principles and methods of how it could be done. The methods and techniques are called Multiparty Computation(MPC). It requires atleast two parties. The method involves parties creating shares and distributing to each other.Say three parties have input values x0 , x1 and x2. From these values parties generate shares of their values and distribute it to each other.
+
+Take party one for example, they generate shares by following:
+
+Let us call the original value as secret
+
+x0=random.randange(Q)
+x1=random.randange(Q)
+x2=(secret-x0-x1)%Q
+
+If you notice carefully,
+
+x0+x1+x2=(x0+x1+secret-x0-x1)%Q=secret
+
+Similarly say another party creates secrets of values, lets call it y
+
+y0=random.randange(Q)
+y1=random.randange(Q)
+y2=(secret-y0-y1)%Q
+
+Now each of the three parties hold shares of both x and y.
+In order to perform the calculation x+y, parties can add their respective shares.
+
+z0=x0+y0
+z1=x1+y1
+z2=x2+y2
+
+Now parties hold shares z0,z1 and z2. They can reconstruct the original x+y by adding z0,z1 and z2.
+
+z0+z1+z2=(x0+y0)+(x1+y1)+(x2+y2)
+        =(x0+x1+(secret1-x0-x1))+(y0+y1+(secret1-y0-y1))
+        =secret1+secret2
+
+Similarly they can perform subtraction.The above protocol couldd be generalized to N number of parties.
+Now its also possible that one of the parties deviate from the protocol, that is manipulate the share in order to
+lead to an incorrect result. Lets call this actor who deviates protocol as malicious party. Security against it as
+security against malicious actors.
+
+Solving this problem requires an different approach.
+
+
+</p>
