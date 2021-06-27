@@ -68,8 +68,9 @@ Above criteria must be close to 0.</p>
 <p style="text-align:justify">Now that we have an established way of generating new keys using PRNG’s. We can split message block into fixed sizes, generate a key using PRNG for each block and encrypt it. But, this would also result into a key as long as the message length.A good Cipher depends on Good Pseudo Random Number Generator(PRNG).Since the above scheme depends on Good PRNG, it could be infered that the basis of a secure cryptographic algorithm is a good secure PRNG.
 </p>
 
-<p>
-Although the scheme is very secure. It is practically not usable. The reasons will motivate further crypto algorithms that I will be introducing. Here are some reasons why above algorithm cannot be used in practical settings:
+##Wrapping up
+<p style="text-align:justify">
+Although OTP is very secure. It is practically not usable. The reasons will motivate further crypto algorithms that I will be introducing. Here are some reasons why above algorithm cannot be used in practical settings:
 <ul>
 	<li>The size of the key is same as ciphertext. Encrypting a file of 1GB will require a key of 1GB.</li>
  	<li>An adversary can modify the ciphertext without the adversary knowing the ciphertext has been tampered with<li>
