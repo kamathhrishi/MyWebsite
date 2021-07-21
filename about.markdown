@@ -16,5 +16,5 @@ In Privacy Preserving Systems, I am specifically interested in Differential Priv
 
 <p>The second man to walk on the moon saw a presentation of mine :P </p>
 <center>
-<img height="300px" width="400px" src="https://github.com/kamathhrishi/MyWebsite/blob/gh-pages/assets/buzz.jpg?raw=true"></img>
+<img height="300px" width="400px" src="https://github.com/kamathhrishi/MyWebsite/blob/gh-pages/assets/buzz.jpg?raw=true">
 </center>
