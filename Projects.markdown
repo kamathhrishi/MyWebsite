@@ -7,10 +7,12 @@ permalink: /projects/
 <br/>
 **Core Contributor, SyMPC [2021-]**
 <br/>
-<em>"A library for training Neural Networks using Multi Party Computations in Pytorch"</em>
+<em>"A library for training and evaluation Neural Networks using Multi Party Computations in Pytorch"</em>
 <br/>
 <br/>
-Been working on something awesome. Will come back to you on this :). Currently, feel free to stalk my Pull requests and commits on Github to understand better.
+I review pull requests, fix bugs, and develop features for the repository.
+<br/>
+Worked on some functionality of Falcon MPC protocol and improved automatic differentiation module.
 <br/>
 <br/>
 
@@ -33,7 +35,7 @@ I worked on **Pytorch** development.The experience helped me learn a lot of soft
 <em>Computer Vision library for human-computer interaction in **Python**</em>
 <br/>
 <p style='text-align: justify;'>
-I have refactored certain parts of the library for improved usability and wrote test cases to ensure accurate functionality. Ported library to Python 3.0.
+Refactored certain parts of the library for improved usability and wrote test cases to ensure accurate functionality. Ported library to Python 3.0.
 </p>
 
 <br/>
@@ -95,10 +97,6 @@ df['carrots_eaten'].sum().get()
 df['carrots_eaten'].max().get()
 ```
 
-
-<br/>
-
-
 <br/>
 
 <h3>Weakly Supervised Street View Text Detection</h3>
@@ -109,6 +107,9 @@ df['carrots_eaten'].max().get()
 <img height="200px" width="200px" src="https://github.com/kamathhrishi/Weakly-Supervised-Street-Text-Detection/raw/main/art/3.jpg">
 </center>
 <br/>
+
+<p>Trained a Convolutional Neural Network for segmentation and localisation using dataset labelled by charecter detection network</p>
+
 - Used Pytorch, OpenCV and Pillow in Python
 - Trained a character agnostic text detector on Chars74K dataset along with images consisting of indoor/outdoor scenes without text. The character agnostic model is a alexnet network pretrained on imagenet.
 - Trained a street text localisation and detection Fully Convolutional Network(FCN) on the weakly supervised labelled dataset. The dataset was labelled by the character agnostic text detector

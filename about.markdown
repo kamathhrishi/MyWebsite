@@ -5,9 +5,9 @@ permalink: /about/
 ---
 
 <p style="text-align:justify">I currently work at Ederlabs on privacy preserving Machine learning (PPML).</p>
-
 <p style="text-align:justify">I am also a core member of <a target="_blank" href="https://www.openmined.org/">Openmined</a> Secure Multiparty Computation team.
-I review pull requests, write functionality and help maintain in SyMPC library. It allows computing over encrypted data, and to train and evaluate neural networks in Pytorch.</p>
+<br/>
+I review pull requests, write functionality and help maintain in SyMPC library. SyMPC allows computing over encrypted data, and to train and evaluate neural networks in Pytorch.</p>
 
 <p style="text-align:justify">My interests are in Machine Learning, Privacy Preserving Systems and Software Engineering.<br />
 In Privacy Preserving Systems, I am specifically interested in Differential Privacy, Federated Learning and Secure Multi Party Computation.</p>
