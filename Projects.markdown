@@ -43,26 +43,75 @@ For complete list of projects feel free to check my [Github Profile](https://git
 <br/>
 <br/>
 
-**GreyNSights**
+<h3>GreyNSights</h3>
+<b><a target="_blank" href="https://github.com/kamathhrishi/GreyNSights">[Repository]</a></b>
+<b><a target="_blank" href="https://kamathhrishi.github.io/MyWebsite/jekyll/update/2021/02/22/Privatepandas.html">[Introductory Blogpost]</a></b>
 <center><p style="text-align:justify"><i>GreyNSights is a Framework for Privacy-Preserving Data Analysis.</i></p></center>
 <p style="text-align:justify">Currently with support only for Pandas. The framework allows analysts to remotely query a dataset such that the dataset remains at source and private to data analyst. The query results returned are differentially private. The framework offers flexibility to the analyst by ensuring that they can use the same pandas syntax for analyzing and transforming datasets, but cannot view the individual rows. GreyNSights also offers flexibility to query several parties together and get aggregate statistics without revealing individual counts of parties.</p>
 
+**Example Usage**
+
+<p>Owner of a sensitive datasets hosts the dataset</p>
+```python
+import pandas
+from GreyNsights.analyst import Pointer
+from GreyNsights.host import Dataset, DataOwner
+from GreyNsights.config import Config
+
+dataset = pandas.read_csv("animals_and_carrots.csv", sep=",", names=["animal", "carrots_eaten"])
+
+owner = DataOwner("Bob", port=6544, host="127.0.0.1")
+config = Config(owner)
+config.load("test_config.yaml")
+dataset = Dataset(owner, "Sample Data", dataset, config, whitelist={"Alice": None})
+
+dataset.listen()
+```
+
+<p>A data analyst interested in the dataset can now analyze the dataset while maintaining
+privacy of dataset and keeping it at source</p>
+
+```python
+#Initilization code of GreyNSights
+import GreyNsights
+from GreyNsights.analyst import DataWorker, DataSource, Pointer, Command, Analyst
+from GreyNsights.frameworks import framework
+
+identity = Analyst("Alice", port=65441, host="127.0.0.1")
+worker = DataWorker(port=6544, host="127.0.0.1")
+dataset = DataSource(identity,worker, "Sample Data")
+config = dataset.get_config()
+
+#Initialization Pointer
+dataset_pt = config.approve().init_pointer()
+
+#Analysis of dataset
+df = pandas.DataFrame(dataset_pt)
+df.columns
+df.describe().get()
+df['carrots_eaten'].mean().get()
+df['carrots_eaten'].sum().get()
+(df['carrots_eaten']>70).sum().get()
+df['carrots_eaten'].max().get()
+```
+
+
 <br/>
 
-**Indoor Scene Recognition with Visual Attributes**
-<br/>
-- Trained a Residual Network to classify 67 different Indoor Scenes on MITIndoor 67, obtained 60% accuracy on the test dataset.
-- MITIndoor67 is a small dataset consisting of 5400 images, training a network directly on the dataset led to substantial overfitting.
-- In order to learn finer features, a separate attribute prediction network was trained on SUN attribute database.
-- The predicted attributes are used to augment image features in the linear layers of the network scene recognition network.
 
 <br/>
 
-**Weakly Supervised Street View Text Detection**
+<h3>Weakly Supervised Street View Text Detection</h3>
+<b><a target="_blank" href="https://github.com/kamathhrishi/Weakly-Supervised-Street-Text-Detection">[Repository]</a></b><br/>
+<center>
+<img height="200px" width="200px" src="https://github.com/kamathhrishi/Weakly-Supervised-Street-Text-Detection/raw/main/art/1.jpg">
+<img height="200px" width="200px" src="https://github.com/kamathhrishi/Weakly-Supervised-Street-Text-Detection/raw/main/art/4.jpg">
+<img height="200px" width="200px" src="https://github.com/kamathhrishi/Weakly-Supervised-Street-Text-Detection/raw/main/art/3.jpg">
+</center>
 <br/>
 - Used Pytorch, OpenCV and Pillow in Python
 - Trained a character agnostic text detector on Chars74K dataset along with images consisting of indoor/outdoor scenes without text. The character agnostic model is a alexnet network pretrained on imagenet.
-- Trained a street text localisation and detection Fully Convolutional Network(FCN) on the weakly supervised labelled dataset by using text detector’s starting CNN layers
+- Trained a street text localisation and detection Fully Convolutional Network(FCN) on the weakly supervised labelled dataset. The dataset was labelled by the character agnostic text detector
 - Reduced time to label a single image by 34% by training a smaller network using Knowledge Distillation, making the model capable of labelling thousands of images in a few hours.
 - Also explored and analyzed other methods for Neural Network compression.
 - Used the distilled network and sliding windows to annotate images in UCSD SVT and NEOCR dataset to derive bounding boxes
