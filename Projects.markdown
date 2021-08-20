@@ -12,8 +12,8 @@ permalink: /projects/
 <br/>
 I review pull requests, fix bugs, and develop features for the repository.
 <br/>
-Worked on some functionality of Falcon MPC protocol and improved automatic differentiation module.
-<br/>
+<p style="text-align: justify;">Worked on implementation of some operations in the paper <i>"FALCON: Honest-Majority Maliciously Secure Framework for Private Deep Learning"</i>.
+I am also working on making the Automatic differentiation module more reliable and useable. I also wrote the implementation of Replicated Secret Sharing tensor primitive which forms the honest majority based SMPC protocols.</p>
 <br/>
 
 **Core Contributor, PySyft [2018-19]**
@@ -116,3 +116,33 @@ df['carrots_eaten'].max().get()
 - Reduced time to label a single image by 34% by training a smaller network using Knowledge Distillation, making the model capable of labelling thousands of images in a few hours.
 - Also explored and analyzed other methods for Neural Network compression.
 - Used the distilled network and sliding windows to annotate images in UCSD SVT and NEOCR dataset to derive bounding boxes
+
+<br/>
+
+<h3>HandPose Estimation</h3>
+<b><a target="_blank" href="https://github.com/kamathhrishi/Hand-Pose-Estimation">[Repository]</a></b><br/>
+<center>
+<p float="left">
+  <img height="150px" width="150px" src="https://github.com/kamathhrishi/Hand-Pose-Estimation/blob/main/Images/raw.png?raw=true">
+  <img height="150px" width="150px" src="https://github.com/kamathhrishi/Hand-Pose-Estimation/blob/main/Images/segmented.png?raw=true">
+  <img height="150px" width="150px" src="https://github.com/kamathhrishi/Hand-Pose-Estimation/blob/main/Images/cropped.png?raw=true">
+  <img height="150px" width="150px" src="https://github.com/kamathhrishi/Hand-Pose-Estimation/blob/main/Images/keypoints.png?raw=true">
+</p>
+<p float="left">
+  <img height="150px" width="150px" src="https://github.com/kamathhrishi/Hand-Pose-Estimation/blob/main/Images/raw1.png?raw=true">
+  <img height="150px" width="150px" src="https://github.com/kamathhrishi/Hand-Pose-Estimation/blob/main/Images/segmented1.png?raw=true">
+  <img height="150px" width="150px" src="https://github.com/kamathhrishi/Hand-Pose-Estimation/blob/main/Images/cropped1.png?raw=true">
+  <img height="150px" width="150px" src="https://github.com/kamathhrishi/Hand-Pose-Estimation/blob/main/Images/keypoint1.png?raw=true">
+</p>
+<p float="left">
+  <img height="150px" width="150px" src="https://github.com/kamathhrishi/Hand-Pose-Estimation/blob/main/Images/raw2.png?raw=true">
+  <img height="150px" width="150px" src="https://github.com/kamathhrishi/Hand-Pose-Estimation/blob/main/Images/segmented2.png?raw=true">
+  <img height="150px" width="150px" src="https://github.com/kamathhrishi/Hand-Pose-Estimation/blob/main/Images/cropped2.png?raw=true">
+  <img height="150px" width="150px" src="https://github.com/kamathhrishi/Hand-Pose-Estimation/blob/main/Images/keypoint2.png?raw=true">
+</p>
+</center>
+<br/>
+
+<p>HandPose estimation with hand segmentation and keypoint detection using Encoder-Decoder CNN in <b>Pytorch</b>.
+The encoder CNN network was a resnet34 network pretrained on Imagenet. I am currently working on improving keypoint detection model performance. It can be seen in the above examples that the keypoint detection
+model is not very robust.</p>
