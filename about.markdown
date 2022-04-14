@@ -14,7 +14,7 @@ In Privacy Preserving Systems, I am specifically interested in Differential Priv
 
 <p style="text-align:justify">I graduated from RV College of Engineering, Bangalore with a Bachelors in Engineering (Electrical and Electronics Engineering) in 2020.</p>
 
-<p style="text-align:justify">Apart from technical interests and work, I like <a target="_blank" href="https://www.zomato.com/users/hrishikesh-kamath-140752612/reviews">exploring different cuisines of food</a> and <a target="_blank" href="https://www.goodreads.com/user/show/145917634-hrishikesh-kamath">reading books</a>. <br/> I am curious about several things and spend time reading about various topics like economics, politics and business. That wasn't an exhaustive list of topics :). Sometimes I watch TV shows. </p>
+<p style="text-align:justify">Apart from technical interests and work, I am curious about several things and spend time reading about various topics like economics, politics and business. That wasn't an exhaustive list of topics :). Sometimes I watch TV shows. </p>
 <br />
 
 <p>The second man to walk on the moon saw a presentation of mine :P </p>
