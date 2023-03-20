@@ -111,7 +111,7 @@ df['carrots_eaten'].max().get()
 <p>Trained a Convolutional Neural Network for segmentation and localisation using dataset labelled by charecter detection network</p>
 
 - Used Pytorch, OpenCV and Pillow in Python
-- Trained a character agnostic text detector on Chars74K dataset along with images consisting of indoor/outdoor scenes without text. The character agnostic model is a alexnet network pretrained on imagenet.
+- Trained a character agnostic text detector on Chars74K dataset along with images consisting of indoor/outdoor scenes without text. The character agnostic model was a resnet18 network.
 - Trained a street text localisation and detection Fully Convolutional Network(FCN) on the weakly supervised labelled dataset. The dataset was labelled by the character agnostic text detector
 - Reduced time to label a single image by 34% by training a smaller network using Knowledge Distillation, making the model capable of labelling thousands of images in a few hours.
 - Also explored and analyzed other methods for Neural Network compression.
