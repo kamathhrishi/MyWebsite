@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 <center><h3>Open Source Contributions</h3></center>
 <br/>
-**Core Contributor, SyMPC [2021-]**
+**Core Contributor, SyMPC [2021-2022]**
 <br/>
 <em>"A library for training and evaluation Neural Networks using Multi Party Computations in Pytorch"</em>
 <br/>
