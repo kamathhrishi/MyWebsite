@@ -11,19 +11,13 @@ categories: jekyll update
 
 <br/>
 
-<p style="text-align:justify">A lot has been said about models and fine-tuning them online. However, not much has been said about curating fine-tuning datasets. It's probably the most underrated yet crucial topic. As the old adage goes for machine learning, "Garbage in, Garbage out". The quality of data is paramount to any Machine learning/deep learning project. I have noticed people spending a lot of time trying larger and larger models without questioning their data or exploring other aspects of their task or the data itself. "Sometimes", significant progress can be made with existing pre-trained models but good datasets. Even before large language models (LLMs) became popular, a wide variety of tools were being developed around the data-centric ecosystem. Even AI veterans like Andrew Ng <a href="https://mitsloan.mit.edu/ideas-made-to-matter/why-its-time-data-centric-artificial-intelligence">emphasized the importance</a> of data-centric machine learning. So, in this article, I intend to give you an overview as to how you can think about finetuning your LLM in a data centric manner. While this article may seem mundane to many, I still believe it has a deserving audience based on my anecdotal experience. This article assumes you are familiar with the basics of deep learning. Note that the model is offcourse important, but this article emphasizes how given a good model you can get a lot done with enough good data without having to spend too much time on the model selection. </p>
+<p style="text-align:justify">A lot has been said about models and fine-tuning them online. However, not much has been said about curating fine-tuning datasets. It's one of the most underrated yet crucial topics. As the old adage goes for machine learning, "Garbage in, Garbage out". The quality of data is paramount to any Machine learning/deep learning project. I have noticed people spending a lot of time trying larger and larger models without questioning their data. Even before large language models (LLMs) became popular, a wide variety of tools were being developed around the data-centric ecosystem. Even AI veterans like Andrew Ng <a href="https://mitsloan.mit.edu/ideas-made-to-matter/why-its-time-data-centric-artificial-intelligence">emphasized the importance</a> of data-centric machine learning. In this article, I intend to give you an overview as to how you can think about finetuning your LLM in a data centric manner. </p>
+<p style="text-align:justify">The concept of data-centric finetuning for Language Models (LLMs) is based on having a complex enough model that can learn the required task. However, rather than spending too much effort trying to find the best model, the focus is on investing most of your time in obtaining the right data that allows you to achieve optimal results. The below diagram depicts the overall steps taken in data-centric finetuning. This article assumes you are familiar with the basics of deep learning. Note that the model is offcourse important, but this article emphasizes how given a good model you can get a lot done with enough good data without having to spend too much time on the model selection. </p>
+
+<img height="300px" width="800px" src="{{site.baseurl}}/assets/overallcycle_datacentric.png">
 
 <p style="text-align:justify">I will illustrate the process of gathering a dataset for a given task. Let me take an example of the process of doing finetuning a LLM for food reviews QA.</p>
 
-<h2>Overview</h2>
-<center>
-<img height="300px" width="800px" src="{{site.baseurl}}/assets/overallcycle_datacentric.png">
-</center>
-<br/>
-<p style="text-align:justify">
-The concept of data-centric finetuning for Language Models (LLMs) is based on having a complex enough model that can learn the required task. However, rather than spending too much effort trying to find the best model, the focus is on investing most of your time in obtaining the right data that allows you to achieve optimal results. The above diagram depicts the overall steps taken in data-centric finetuning.
-
-</p>
 
 <h2>Define your task clearly</h2>
 <p style="text-align:justify">The first step is to clearly define your task as to what is the purpose of the model. What are the considerations? Speed? accuracy? memory? So the example I am taking is <b>Food Q&A</b>. That is we will have Question answering system in say a food reviews platform like doordash. Now why will a Q&A help? Mostly for User experience, Will it have to be fast? Yes. Will it have to be optimized for memory? not necessarily since it runs on the cloud, Will it have to be accurate? Yes, but for a limited set of queries. We don't want to acccomodate a query set as vast as say as ChatGPT or Grook.</p>
