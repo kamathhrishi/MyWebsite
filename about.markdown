@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<p style="text-align:justify">If you’re an equity analyst, finance professional, or just someone curious about the intersection of finance and AI, feel free to reach out — I’d love to chat. You can reach me at kamathhrishi@gmail.com.</p>
+<p style="text-align:justify">If you’re an equity analyst, finance professional, or just someone curious about the intersection of finance and AI, feel free to reach out, I’d love to chat. You can reach me at kamathhrishi@gmail.com.</p>
 <br/>
 
 <p style="text-align:justify">I am currently enrolled in the Electrical and Computer Engineering (ECE) Master’s program at the University of Delaware, graduating in May 2025.</p>
@@ -19,7 +19,7 @@ permalink: /about/
 
 <br/>
 
-<p style="text-align:justify">Fun fact: Buzz Aldrin — the second man to walk on the moon — once saw me present. Still one of my favorite moments.</p>
+<p style="text-align:justify">Fun fact: Buzz Aldrin - the second man to walk on the moon once saw me present. Still one of my favorite moments.</p>
 
 <center>
 <img height="300px" width="400px" src="https://github.com/kamathhrishi/MyWebsite/blob/gh-pages/assets/buzz.jpg?raw=true">
