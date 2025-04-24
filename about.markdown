@@ -6,7 +6,6 @@ permalink: /about/
 
 <p style="text-align:justify">If you’re an equity analyst, finance professional, or just someone curious about the intersection of finance and AI, feel free to reach out — I’d love to chat. You can reach me at kamathhrishi@gmail.com.</p>
 <br/>
-
 <p style="text-align:justify">I am currently enrolled in the Electrical and Computer Engineering (ECE) Master’s program at the University of Delaware, graduating in May 2025. I was working on themarketcast.ai, an AI-powered podcast service that summarized S&P 500 earnings calls — a project I later sunsetted.</p>
 
 <p style="text-align:justify">In the summer of 2024, I worked as a Research Engineer at <a href="https://www.mbd.xyz/">Mbd.xyz</a>, where I focused on deploying large language models (LLMs) on AOS using ONNXRuntime and developing techniques to bridge recommendation system algorithms. Separately, I explored how LLMs can be used to structure qualitative data in Indian capital markets.</p>
