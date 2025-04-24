@@ -4,28 +4,22 @@ title: About
 permalink: /about/
 ---
 
-<p style="text-align:justify"><b>Note: </b>I am actively seeking full-time roles as a Software Engineer, Machine Learning Engineer, or Data Scientist.</p>
+<p style="text-align:justify"><b>If you're an equity analyst, researcher, or investor exploring better ways to extract and structure insights from financial data, feel free to reach out.</b> I’d love to connect and learn about how you work through filings, earnings calls, or sector research. You can email me at <b>kamathhrishi@gmail.com</b>.</p>
+<br/>
 
-<p style="text-align:justify">I am currently enrolled in the Electrical and Computer Engineering (ECE) Master’s program at the University of Delaware and will be graduating in May 2025.<br/> For my master’s thesis, I am exploring reinforcement learning-based solutions for hardware security.</p>
+<p style="text-align:justify">I am currently enrolled in the Electrical and Computer Engineering (ECE) Master’s program at the University of Delaware, graduating in May 2025.</p>
 
+<p style="text-align:justify">In the summer of 2024, I worked as a Research Engineer at <a href="https://www.mbd.xyz/">Mbd.xyz</a>, where I focused on deploying large language models (LLMs) on AOS using ONNXRuntime and developing techniques to bridge recommendation system algorithms. Separately, I explored how LLMs can be used to structure qualitative data in Indian capital markets. Prior to this, I developed an AI-powered podcast service that summarized S&P 500 earnings calls — a project I later sunsetted.</p>
 
-<p style="text-align:justify">During the summer of 2024, I am working as a Research Engineer at <a href="https://www.mbd.xyz/">Mbd.xyz</a>, focusing on deploying LLMs on AOS using ONNXRuntime and bridging recommendation system algorithms. Additionally, as a personal project, I am investigating the use of large language models (LLMs) to better structure qualitative data on Indian capital markets.
-</p>
+<p style="text-align:justify">Before grad school, I spent 2.5 years as a Software Engineer at Ederlabs, a startup where I worked on backend systems and CI/CD pipelines. I was also a core contributor to <a href="https://openmined.org/">OpenMined's</a> <a href="https://github.com/OpenMined/PySyft">PySyft</a> and <a href="https://github.com/OpenMined/SyMPC">SyMPC</a>, contributing to privacy-preserving machine learning and secure multi-party computation. I earned my Bachelor's degree in Electrical and Electronics Engineering from RV College of Engineering, Bangalore in 2020.</p>
 
+<p style="text-align:justify">I enjoy independently building and scaling learning algorithms that solve real-world problems. My work spans language models, reinforcement learning, and computer vision. I’m especially interested in systems that combine MLOps principles with applied machine learning to improve performance and reliability. Over time, I’ve developed a deep appreciation for robust engineering practices, open-source collaboration, and applying AI in domains like finance, security, and infrastructure.</p>
 
- <p style="text-align:justify">Previously, I worked as a Software Engineer at a startup called Ederlabs for 2.5 years. Additionally, I was also a core contributor to <a href="https://openmined.org/">OpenMined's</a> <a href="https://github.com/OpenMined/PySyft">PySyft</a> and <a href="https://github.com/OpenMined/SyMPC">SyMPC</a> projects. I graduated from RV College of Engineering, Bangalore with a Bachelors in Engineering (Electrical and Electronics Engineering) in 2020. </p>
+<p style="text-align:justify">Outside of work, I’m deeply curious about capital markets and business strategy. I’ve been an active investor in Indian markets for over five years, using fundamental analysis to guide decisions. I also spend time thinking about how to build tools that help analysts go beyond surface-level summaries and uncover deeper, actionable insights.</p>
 
-
-<p style="text-align:justify">I have a keen interest in developing and scaling learning algorithms to solve real-world problems. My experience includes working with language models, computer vision, and reinforcement learning. I am passionate about leveraging my knowledge and experience in software engineering and machine learning to develop systems that facilitate the building, management, and deployment of impactful learning algorithms. </p>
-<p>My time as a software engineer at a startup has taught me standard software engineering practices and helped me gain substantial DevOps knowledge. In addition to my work experience, I have contributed to open-source software, which has taught me to navigate and dive deep into large codebases. As a former core contributor to a research-based open-source software project, I have also gained experience in implementing research papers from scratch.
-</p>
-
-<p style="text-align:justify">My experience working in a startup and contributing to open source has taught me to work independently. I can take up tasks and complete them end-to-end with minimal assistance.</p>
-
-<p style="text-align:justify">Apart from technical interests and work, I am curious about several things and spend time reading about various topics. I am especially interested in capital markets and business. I closely follow the Indian markets and invest using fundamental analysis. </p>
 <br />
 
-<p>The second man to walk on the moon once saw a presentation of mine :P </p>
+<p>The second man to walk on the moon once saw a presentation of mine :P</p>
 
 <center>
 <img height="300px" width="400px" src="https://github.com/kamathhrishi/MyWebsite/blob/gh-pages/assets/buzz.jpg?raw=true">
